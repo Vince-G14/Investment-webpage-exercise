@@ -1,0 +1,1487 @@
+.body { 
+
+  position: relative;
+
+}
+
+.black { 
+
+background-color: black;
+
+}
+
+.sand { 
+
+background-color: #ede5da ; 
+
+}
+
+.blue { 
+
+ background-color: #3458ae; 
+
+}
+
+:root {
+
+    --blue: #3458ae;
+    --white: #ffffff; 
+    --sand: #ede5da; 
+    --black: #000
+  }
+
+  .btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .Handvestingphoto { 
+
+    position: relative;
+  }
+
+.hanvestingimg { 
+
+    position: absolute;
+    left: 30%;
+    top: 30%
+}
+
+.topnavigation { 
+
+position: relative;
+
+}
+
+.topnav { 
+
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    justify-content: space-around;
+    font-size: 25px;
+    line-height: 2;        
+}
+
+    
+.buttontopnav {		
+  
+    position: relative;
+    left: 210px;
+    top: 80px;
+    margin: 0px 25px;
+    color: #fff;
+    background-color: #3458ae;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 0px 5px #3458ae;
+	  font-size: 15px;
+	  text-transform: uppercase;
+	  cursor: pointer;
+    transition: 700ms;
+    z-index: 1;
+
+}
+
+.buttontopnav:hover { 
+background-color: #000;
+transition: 700ms;
+transition-timing-function: cubic-bezier(0, -0.78, 0, 1.6);;
+box-shadow: 20px -6px 0px 10px #ede5da;
+transform: translate(0px 10px);
+letter-spacing: 1px;
+}
+
+.buttontopnav a:hover { 
+
+    margin-top: 20px;
+}
+     
+
+    .custom-shape-divider-top-1661246589 {
+
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        padding: 0 !important;
+                
+    }
+    
+    .custom-shape-divider-top-1661246589 svg {
+
+        position: relative;
+        display: block;
+        height: 300px;
+        width: 100%;
+        z-index: 1;
+        
+
+    }
+    
+    .custom-shape-divider-top-1661246589 .shape-fill {
+
+        fill: black; 
+
+    }
+
+    .investmentsleft { 
+
+      position: relative;
+
+    }
+
+    .invesmentphoto { 
+
+      position: relative;
+    }
+    
+    .investmentphotodiv { 
+
+      position: absolute;
+      bottom: 0;
+      left: 0; 
+
+      }
+
+    col, .mobilephone { 
+
+       position: relative;
+       top: 40px;
+       left: 75px;
+       width: 55%;
+       height: auto;
+       z-index: 1;
+    }
+
+     col, .mandollar { 
+
+        position: relative;
+        top: 130px;
+        right: 25px;
+        width: 43%;
+        height: auto;
+        z-index: 2;
+
+    }
+
+    .groundblack { 
+
+    position: relative;
+    top: 0;
+    left: 0%;
+    background-color: black;
+    border-radius: 50%;
+    border: #3458ae;
+    width: 100%;    
+    height: 4em;
+
+    }
+
+    .investmentsleft, .investmentsright { 
+
+        position: relative;
+        top: -100px; 
+        left: 0px;
+       
+    }
+
+    col, .investmentsbutton { 
+
+        position: absolute;
+        background-color: #ede5da;
+        color: #3458ae;
+        border: #3458ae;
+
+        box-shadow: -6px -3px 0px 3px;
+        top: 270px; 
+        left: 15px;
+        border-radius: 10px;
+        transition: 600ms;
+        
+    }
+
+    col, .investmentsbutton:hover { 
+
+        background-color: #ede5da;
+        color: rgb(0 86 177);
+        padding: 10px;
+        transform: scale(1.2); 
+        transition: 600ms;
+        box-shadow: 3px 8px 0px 1px;
+                
+    }
+
+    col, .investmentsleft .investmentsright i { 
+
+      position: absolute;
+      top: 0;
+      right: 43%;
+    }
+
+    col, .investmentsleft h1 { 
+
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    col, .investmentsright h1 { 
+
+        font-size: 5vw;
+        text-align: left;
+    }
+
+
+    col, .investments p { 
+
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .buttons-information { 
+
+      position: relative;
+      padding-top: 5%;
+
+    }
+
+    .learning { 
+
+      padding-top: 20px 
+
+    }
+
+    .information .col button, ul { 
+
+        list-style-type: none;
+        
+    }
+    
+    .informationbutton {
+
+        position: relative;
+        font-size: 60px;
+        text-decoration: none;
+        color: #3458ae;
+        transition: 2s;
+
+    }
+
+    .informationbutton::before { 
+        
+        content: '';
+        position: absolute;
+        right: 330px;
+        bottom: 40px;
+        height: 2px;
+        width: 70px;
+        color: #fff;
+        background-color: #fff;
+        display: none;
+        transition: 3s;
+    }
+
+
+    .informationbutton:hover:before { 
+
+        display: initial;
+        width: 70px;
+        animation: leftright 3s forwards;
+        
+    }
+
+    .informationbutton:hover { 
+
+        color: #fff;
+        animation: mymove 2s infinite;
+        transition: 1s;
+        
+        
+    }
+
+    @keyframes mymove {
+
+        0%   {left: 0px;}
+        25%  {left: 20px;}
+        50%  {right: -20px;}
+        100%  {left: 0px;}
+        
+    }
+
+    @keyframes leftright {
+
+        0%   {left: -280px;}
+        25%  {left: 280px;}
+        50%  {right: 0px;}
+        100%  {left: 280px;}
+    }
+
+    .informationtext { 
+
+      position: relative;
+      padding-top: 4%; 
+
+    }
+
+
+    .information h2 { 
+
+      color: var(--white);
+
+    }
+
+    .information p { 
+ 
+        color: #fff;
+        text-align: left;
+        line-height: 25px;       
+    }
+
+    .informationphoto { 
+
+      padding-top: 300px;
+      position: relative;
+      top: 0;
+      left: 0; 
+
+    }
+
+    .information .womanpccoin { 
+
+    position: relative; 
+    top: 45px; 
+    left: 20%;    
+    z-index: 1;
+    width: 50%;    
+    
+    }
+
+    /*alles cols via; col-sm-4 col-xs-12*/
+    .groundwhite {
+
+    position: relative;
+    top: 0;
+    right: 0%; 
+    background-color: #fff;
+    border-radius: 50%;
+    border: #3458ae;    
+    height: 4em; 
+}
+
+  .textcurve { 
+
+   position: relative;
+
+  }
+
+  .textcurve h1 { 
+
+    text-align: center;
+    font-size: 60px;
+    padding-top: 45px;
+
+  }  
+
+  .textcurve h2 { 
+
+    text-align: center;
+    font-size: 40px;
+
+  }  
+
+  .bluetext { 
+
+    color:#3458ae;
+  }
+
+  .makingmillionaire { 
+
+    text-align: center;
+    padding-top: 150px
+
+ }
+
+ 
+  .makingmillionairebutton {
+   
+    position: relative;
+    background-color: var(--sand);
+    color: var(--blue);
+    border: var(--blue);
+    box-shadow: -6px -3px 0px 3px;
+    top: 0;
+    left: 0%;
+    border-radius: 10px;
+    transition: 600ms;
+
+ }
+
+ .makingmillionairebutton:hover {
+  
+    background-color: var(--sand);
+    color: var(--blue);
+    padding: 10px;
+    transform: scale(1.2);
+    transition: 600ms;
+    box-shadow: 3px 8px 0px 1px;
+ }
+
+.millionaire {
+
+position: relative;
+
+}
+
+.millionairephoto { 
+
+  position: relative;
+  margin-top: 60px;
+  margin-left: 100px;
+
+}
+
+  .millionaire .womanbriefcase { 
+
+    position: relative;
+    top: 45px; 
+    left: 20px;
+    height: auto;
+    width: 20%;
+    z-index: 4; 
+
+  }
+
+  .millionaire .groundwhite { 
+
+    position: relative;
+    top: 0; 
+    left: 0;
+    width: calc(100% - 200px);
+    z-index: 2;
+    background-color: #fff;
+  
+
+  }
+
+  .millionaire .mobilephone { 
+
+    position: absolute;
+    top: -45px; 
+    left: 100px; 
+    height: auto;
+    width: 32%;    
+    z-index: 3;
+
+  }
+
+  .backgroundcircle { 
+
+    position: relative;
+    top: 10px;
+    right: 200px;
+    width: 50%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+
+  }
+
+  .custom-shape-divider-bottom-1661939337 {
+    
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: scaleX(-1.0);
+    z-index: 2; 
+    padding: 0%
+}
+
+.custom-shape-divider-bottom-1661939337 svg {
+
+    position: relative;
+    display: inline-block;
+    width: calc(300% + 1.3px);
+    height: 220px;
+    
+    
+}
+
+.custom-shape-divider-bottom-1661939337 .shape-fill {
+    fill: #000000;
+}
+
+.topics h1 { 
+    
+    text-align: center;
+    font-size: 55px;
+    color: var(--white)
+    
+}
+
+.topics p { 
+
+    position: relative;
+    top: 0; 
+    left: 0;
+    text-align: center;
+    color: var(--white);
+}
+
+.topiccheckbox p { 
+
+  color: var(--white);
+   
+}
+
+
+
+.form-check { 
+
+  padding-top: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+  .form-check-label { 
+
+    padding-left: 15px;
+    color: var(--blue);
+    font-weight: bolder;
+    font-size: 20px;
+    
+  }
+
+  input[type="checkbox"] {
+    
+    height: 25px;
+    width: 25px;
+    border: 2px solid var(--blue); 
+    background-color: var(--black);
+
+  }
+
+  input[type="checkbox"]:checked {
+
+   border: 2px solid var(--blue);
+   background-color: var(--blue);
+
+
+  }
+
+  input:checked + label {
+
+    text-decoration: underline;
+
+  }
+
+  .cardtext { 
+
+    padding-top: 45px;
+  }
+
+  .cardtext, h3 h2 p { 
+
+    text-align: center;
+
+  }
+
+  .cardtext h3 { 
+
+    color: var(--blue);
+
+  }
+  
+  .paddingcardleft { 
+
+    padding: 0% 0% 0% 15%;
+
+  }
+
+  .paddingcardright { 
+
+    padding: 0% 0% 0% 3%;
+
+  }
+
+.cardstyle { 
+
+  height: 260px;
+  border-radius: 10%;
+  text-align: center;
+  z-index: 1;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.round { 
+
+position: absolute;
+top: -1.5;
+left: 0;
+height: 100.5%;
+width: 38%;
+border-radius: 10%;
+background-color: #000;
+z-index: -1;
+
+}
+
+.womanbriefcasecard { 
+
+position: absolute;
+top: 0%;
+left: 4%;
+width: 30%;
+height: 100%;
+z-index: 1;
+object-fit: cover;
+object-position: 0 -10%;
+
+}
+
+.mantabletcard { 
+
+position: absolute;
+top: 0%;
+left: 4%;
+width: 30%;
+height: 100%;
+z-index: 1;
+object-fit: cover;
+object-position: 0 -30%;
+
+}
+
+.womanlaptopcard { 
+
+  position: absolute;
+  top: 20.5%;
+  left: 4%;
+  width: 30%;
+  height: 80%;
+  z-index: 1;
+  object-fit: cover;
+  object-position: 0 -47%;
+  
+}
+.mandollarhandcard { 
+
+  position: absolute;
+  top: 20.5%;
+  left: 5%;
+  width: 30%;
+  height: 80%;
+  z-index: 1;
+  object-fit: cover;
+  object-position: 0 0%;
+
+}
+
+.stockscard { 
+
+  position: absolute;
+  top: 12.5%;
+  right: 74%;
+  width: 30%;
+  height: 70%;
+  transform: scale(0.75);
+  z-index: 1;
+  object-fit: cover;
+  object-position: 100% 0%;
+
+}
+
+.Coinscard { 
+
+  position: absolute;
+  top: 30%;
+  right: 69%;
+  width: 25%;
+  height: 45%;
+  z-index: 1;
+}
+
+
+.groundwhite3 { 
+
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  background-color: #fff;
+  border-radius: 40%;
+  width: 24%;
+  height: 17%;
+}
+
+
+.groundwhite4 { 
+
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 11em;
+  height: 2em;
+}
+
+.card-body p { 
+
+font-size: 1.5vw;
+
+}
+
+.cardbutton {
+   
+  position: relative;
+  font-size: 20px;
+  background-color: var(--sand);
+  color: var(--blue);
+  border: var(--blue);
+  box-shadow: -6px -3px 0px 3px;
+  top: 0;
+  left: 0%;
+  border-radius: 10px;
+  transition: 600ms;
+
+}
+
+.cardbutton:hover {
+
+  background-color: var(--sand);
+  color: var(--blue);
+  padding: 10px;
+  transform: translate(10px);
+  transition: 800ms;
+  padding-top: 10px;
+
+}
+
+.cardbutton:before {
+
+  content: "";
+  position: absolute;
+  top: 40px; 
+  right: -3px;
+  background-color: var(--sand);
+  width: 130px;
+  height: 15px;
+  transition: 700ms;
+  opacity: 0%;
+
+}
+  
+
+.cardbutton:hover:before { 
+
+content: "";
+transition: 700ms;
+transform: skew(50deg);
+border-radius: 50%;
+background-color: #ede5da;
+opacity: 100%;
+
+}
+
+.cardbuttonwaitlist { 
+
+  position: relative;
+  font-size: 20px;
+  background-color: var(--sand);
+  color: var(--blue);
+  border: var(--blue);
+  box-shadow: -6px -3px 0px 3px;
+  top: 0;
+  left: 0%;
+  border-radius: 10px;
+  transition: 600ms;
+
+}
+
+.cardbuttonwaitlist:hover {
+
+  background-color: var(--sand);
+  color: var(--blue);
+  padding: 10px;
+  transform: translate(10px);
+  transition: 800ms;
+  padding-top: 10px;
+}
+
+.cardbuttonwaitlist::before { 
+
+  content: "";
+  position: absolute;
+  top: 40px; 
+  right: -5px;
+  background-color: var(--sand);
+  width: 170px;
+  height: 15px;
+  transition: 700ms;
+  opacity: 0%;
+}
+
+.cardbuttonwaitlist:hover:before { 
+
+  content: "";
+  transition: 700ms;
+  transform: skew(50deg);
+  border-radius: 50%;
+  background-color: #ede5da;
+  opacity: 100%;
+  
+  }
+
+
+.hp { 
+
+position: relative;
+
+}
+.hp h3 { 
+
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+
+}
+
+.hp p { 
+
+text-align: justify;
+font-size: 12px;
+color: #fff;
+z-index: 1;
+
+}
+
+.hp2  { 
+
+text-align: center;
+color: var(--white);
+
+}
+
+.hp2 h1  { 
+
+ padding-top: 70px;
+  
+  }
+
+.smarterdecisionsphoto { 
+
+position: relative;
+top: 100px;
+left: 0; 
+
+}
+
+.smarterdecisions .mobilephone { 
+
+  position: relative;
+  top: 35px; 
+  left: 80px;
+  width: 55%;
+  height: auto;
+  z-index: 3;
+}
+
+.groundblack2 { 
+
+position: relative;
+top: 0px; 
+left: 35px;
+width: 85%;
+height: 60px;
+background-color: var(--black);
+border-radius: 50%;
+z-index: 2;
+
+}
+
+.custom-shape-divider-top-1663663005 {
+
+  padding: 0; 
+  position: relative;
+  bottom: 124px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1663663005 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 125px;
+}
+
+.custom-shape-divider-top-1663663005 .shape-fill {
+  fill: #EDE5DA;
+}
+
+.aboutus { 
+
+padding-bottom: 20px;
+
+}
+
+.aboutus h2 { 
+
+font-size: 50px;
+
+}
+
+.aboutus h3 { 
+
+  font-size: 25px;
+  color: var(--blue);
+
+  
+}
+
+.aboutus p { 
+
+padding-bottom: 100px;
+
+}
+
+.mansmile { 
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 35px;
+width: 40%;
+height: auto;
+box-shadow:  -6px 6px 15px 0px black;
+
+}
+
+.trailman { 
+
+position: relative;
+
+}
+
+.wave {
+
+width: 100%;
+height: 100%;
+background: #3458ae;
+z-index: 1;
+border-radius: 30% / 20%;
+
+}
+
+.trailphoto { 
+
+
+
+}
+
+.trailphoto .mobilephone1 { 
+
+position: relative;
+top: 80px;
+left: 245px;
+width: 35%;
+height: auto;
+z-index: 3;
+border: 2px var(--black);
+  
+}
+
+.ground { 
+
+  position: relative;
+  top: 40px;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  background-color: var(--white);
+  border-radius: 50%;
+  z-index: 2;
+
+}
+
+.trailphoto .mentablet { 
+
+position: relative;
+top: 170px;
+right: 45px;
+width: 25%;
+height: auto;
+z-index: 4;
+
+}
+
+.skiptrail h2 { 
+
+margin-top: 150px;
+margin-left: 50px;
+text-align: left;
+font-size: 50px;
+color: #fff;
+
+}
+
+.skiptrail p { 
+
+font-size: 12px;
+margin-left: 50px;
+text-align: justify;
+color: #fff;
+  
+}
+
+.skipbutton { 
+
+margin-left: 50px;
+background-color: var(--blue);
+color: var(--white);
+border: var(--blue);
+box-shadow: -6px -3px 0px 3px;
+border-radius: 10px;
+transition: 600ms;
+ 
+}
+
+.skipbutton:hover { 
+
+background-color: var(--white);
+color: var(--blue);
+padding: 10px;
+transform: scale(1.2);
+transition: 600ms;
+box-shadow: 3px 8px 0px 1px;
+
+}
+
+.line1 { 
+
+  position: relative;
+  top: 100px;
+  width: auto;
+  height: 2px;
+  background-color: #3458ae;
+}
+
+.line2 { 
+
+  position: relative;
+  top: 40px;
+  width: auto;
+  height: 2px;
+  background-color: #3458ae;
+}
+
+.investmentmenu { 
+  color: #3458ae;
+
+}
+
+.investmentmenu ul {
+  flex-direction: column;
+  display: flex;
+}
+
+.investmentmenu h3 { 
+
+  text-align: center;
+  padding-top: 20px;
+}
+
+.investmentmenu li {
+  width: fit-content;
+  margin: auto;
+}
+
+.investmentmenu a {   
+
+  position: relative;
+  color: var(--blue);
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-right: 20px; 
+  text-decoration: none;
+  line-height: 65px;
+  letter-spacing: 1px;
+ 
+
+}
+
+.investmentmenu a:after { 
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+
+}
+
+.investmentmenu a:hover:after { 
+  
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+
+}
+
+.aboutusbottom h3 { 
+
+color: var(--blue);
+text-align: center;
+padding-top: 20px;
+
+}
+
+.aboutusbottom a {
+
+position: relative;
+color: var(--blue);
+display: block;
+text-align: center;
+font-size: 20px;
+text-decoration: none;
+line-height: 65px;
+}
+
+.aboutusbottom ul {
+  flex-direction: column;
+  display: flex;
+}
+
+.aboutusbottom li {
+  width: fit-content;
+  margin: auto;
+}
+
+
+.aboutusbottom a:after { 
+
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+ 
+}
+
+.aboutusbottom a:hover:after { 
+  
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+ 
+}
+
+.newsletter h3 { 
+
+padding-top: 20px;
+color: #3458ae;
+}
+
+
+.newsletter .form-control { 
+
+border: 2px solid var(--blue);
+border-radius: 10px 10px 10px 10px; 
+background-color: var(--sand);
+color: var(--blue);
+
+}
+
+.form-control  { 
+
+padding: 10px;
+font-size: 10px;
+font-weight: bold;
+}
+
+input:focus, .form-label:focus, .form-control:focus {
+
+  outline: none;
+  box-shadow: none;
+
+}
+
+.form-control::-webkit-input-placeholder {
+  color: var(--blue);
+}
+
+input[type=text]:focus { 
+
+  border: 2px solid black;
+}
+
+ .newsletterbutton { 
+  
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: var(--sand);
+  color: var(--blue);
+  border: var(--blue);
+  box-shadow: -6px -3px 0px 3px;
+  border-radius: 10px;
+  transition: 600ms;
+   
+  }
+  
+ .newsletterbutton:hover { 
+  
+  background-color: var(--sand);
+  color: var(--blue);
+  padding: 10px;
+  transform: scale(1.2);
+  transition: 600ms;
+  box-shadow: 3px 8px 0px 1px;
+  
+  }
+
+.copyright p { 
+
+color: #3458ae;
+text-align: center;
+font-weight: 600;
+padding-top: 30px
+
+}
+
+.socialmediabuttons ul {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: right;
+}
+
+.socialmediabuttons li {
+  width: fit-content;
+  margin-left: 40px;
+}
+
+.socialmediabuttons i { 
+
+padding: 15px;
+justify-content: center; 
+box-shadow: -7px -7px 0px 5px #3458ae;  
+cursor: pointer;
+background-color: transparent;
+transition: 700ms;
+opacity: 100%;
+
+}
+
+.socialmediabuttons i:hover { 
+
+padding: 15px;
+transform: translate(45deg);
+transition: 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+box-shadow: 15px 15px 0px 0px #3458ae; 
+opacity: 100%;
+}
+
+.fa-facebook {
+  color: #3b5998;
+ 
+}
+
+.fa-facebook:hover{
+  color: #3b5998;
+ 
+}
+
+.fa-instagram { 
+
+  color: #3458ae;
+
+}
+.fa-instagram:hover {
+
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter { 
+
+color: #3458ae;
+
+}
+
+.fa-twitter:hover { 
+
+  color:#55acee; 
+}
+
+
+@media screen and (min-width: 832px) {
+  .mansmile {margin-bottom: 20px; }
+  
+}
+
+@media screen and (max-width: 575px) { 
+
+  .investmentphotodiv { display: none;}
+  
+  }
+
+  @media screen and (max-width: 1000px) { 
+
+    .investmentphotodiv { display:none}
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .informationphoto {padding-top: 0px !important}
+
+  }
+
+  @media screen and (max-width: 700px) { 
+
+    .buttontopnav {
+      display: block !important;
+      line-height: 60px;
+      margin-bottom: 40px;
+      margin-left: 55px;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .buttontopnav {
+      display: block !important;
+      line-height: 60px;
+      margin-bottom: 40px;
+      margin-left: 275px;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .millionaire .groundwhite {
+
+      width: 70%;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .millionaire .mobilephone {
+      
+      top: -20px;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 740px) { 
+
+    .hp p {
+      
+      color: var(--blue);
+      z-index: 2;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .smarterdecisions .mobilephone {
+      
+      top: -255px;
+      left: 160px;
+      width: 35%
+      
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .groundblack2{
+      
+      display: none
+    
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .ground {
+      
+     top: -30px;
+     right: -13px;
+     width: 95%;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 575px) { 
+
+    .trailphoto .mobilephone1 {
+      
+     top: 10px;
+    
+    }
+
+  }
+
+  
+  @media screen and (max-width: 575px) { 
+
+    .trailphoto .mentablet {
+      
+     top: 90px;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 1165px) { 
+
+    .line2 {
+      
+     display: none;
+    
+    }
+
+  }
